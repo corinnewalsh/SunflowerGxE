@@ -1,5 +1,4 @@
 # Sunflower Rhizosphere Genotype x Environment
-scripts for sunflower rhizosphere project
 
 ## Project Description (ABSTRACT)
 
@@ -22,7 +21,7 @@ file explanation, organization
 **01_preprocess.Rmd** - initial processing of raw ASV table output from dada2 into cleaned tables for downstream analyses
 **02_explr.vis.Rmd** - exploration and visualization of bacterial community patterns across dataset
 **03_models.tmp.Rmd** - initial modeling attempts, incuding different approached for normalization and different models (e.g. glm, liner mixed effects, binomial)
-**04_RF.tmp.Rmd** - attempts at constructing Random Forest models to identify ASVs predictive of genotype. None of these models looked very good. 
+**04_RF.tmp.Rmd** - attempts at constructing Random Forest models to identify ASVs predictive of genotype. None of these models looked very good
 **05_ClimateData.Rmd** - incorporation of climate data for the locations, including building maps and adding new data to metadata file (script adapted from Kyle Keepers)
 **06_network.Rmd** - constructs a binomial network to visualize ASVs that associate with certain plant genotypes (need to identify better ASVs of interest before building this network)
 **07_MoreModels.Rmd** - further linear modeling attempts, including summarizing taxonomy at genera level
