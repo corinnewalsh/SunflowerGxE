@@ -15,19 +15,19 @@
 - Sequence data processed using DADA2
 
 ## List of files
-file explanation, organization
 
-#### R scripts
+### R scripts
 
-##### ASV / OTU processing
+#### ASV / OTU processing
 **ASV_OTU_scripts/dada2_sungxe_16S.Rmd** - bioinformatic processing of raw reads into 16S ASVs (Based on Fierer Lab DADA2 pipeline)  
 
 **ASV_OTU_scripts/dada2_sungxe_ITS.Rmd** - bioinformatic processing of raw reads into ITS ASVs (Based on Fierer Lab DADA2 pipeline)  
 
-**ASV_OTU_scripts/cluster97.Rmd** - bioinformatic processing of DADA2 16S ASVs into 97% OTU clusters using DECIPHER
+**ASV_OTU_scripts/cluster97.Rmd** - bioinformatic processing of DADA2 16S ASVs into 97% OTU clusters using DECIPHER  
+
 NOTE: these scripts used on Innes server
 
-##### 16S Analyses
+#### 16S Analyses
 **01_preprocess.Rmd** - initial processing of raw ASV table output from dada2 into cleaned tables for downstream analyses  
 
 **02_explr.vis.Rmd** - exploration and visualization of bacterial community patterns across dataset  
@@ -44,7 +44,7 @@ NOTE: these scripts used on Innes server
 
 **08_Cluster97.Rmd** - analysis and linear modeling of OTU 97% cluster  
 
-##### ITS Analyses
+#### ITS Analyses
 **01_preprocess_ITS copy.Rmd** - initial processing of raw ASV table output from dada2 into cleaned tables for downstream analyses (for R1/R2 processed data)   
 
 **01_preprocess_ITS_R1 copy.Rmd** - initial processing of raw ASV table output from dada2 into cleaned tables for downstream analyses (for R1 only data)   
